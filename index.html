@@ -14,10 +14,10 @@
   <link rel="shortcut icon" type="image/png" href=""/>
 
   <!-- Title of your site -->
-  <title>Charadex</title>
+  <title>Zippleons</title>
 
   <!-- Description of your site -->
-  <meta name="description" content="An automated masterlist for your species!">
+  <meta name="description" content="A Species created by SinisterGutz">
 
 
   <!-- ----------------------------------------------------------------- -->
@@ -64,7 +64,7 @@
 
       // Ascending  (1 2 3) || asc
       // Descending (3 2 1) || desc
-      itemOrder: "desc",
+      itemOrder: "asc",
 
       // Columns the search looks through by default
       searchParams: ['id', 'owner', 'artist', 'designer'],
@@ -83,7 +83,7 @@
     <div class="container">
 
       <!-- Brand -->
-      <a class="navbar-brand" href="#"><i class="bi bi-box2-heart"></i> Charadex</a>
+      <a class="navbar-brand" href="#"><i class="bi bi-box2-heart"></i> Zippleons</a>
 
       <!-- Toggle -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#charadexnav">
@@ -94,18 +94,18 @@
       <div class="collapse navbar-collapse" id="charadexnav">
         <ul class="navbar-nav mr-auto">
 
-          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Carrd</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Creator</a></li>
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
               Dropdown
             </a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Link</a>
-              <a class="dropdown-item" href="#">Link</a>
+              <a class="dropdown-item" href="#">Discord</a>
+              <a class="dropdown-item" href="#">Instagram</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Link</a>
+              <a class="dropdown-item" href="#">Toyhouse</a>
             </div>
           </li>
 
@@ -155,11 +155,14 @@
               through. Make sure that filter="" matches the column with said items.
               Do not remove 'All' -->
           <div class="col-md-2 col-12 p-1">
-            <select class="form-control bg-faded" filter="designtype" id="filter">
+            <select class="form-control bg-faded" filter="statuses" id="filter">
               <option>All</option>
-              <option>Official Design</option>
-              <option>Guest Design</option>
-              <option>MYO Design</option>
+              <option>UFO</option>
+              <option>Voided</option>
+              <option>Member Owned</option>
+              <option>Mascot</option>
+              <option>Staff Owned</option>
+              <option>PGA Owned</option>
             </select>
           </div>
 
@@ -210,7 +213,7 @@
   <-- Please do not remove the credit
   <-------------------------------------------------------------------- -->
   <div class="footer bg-dark p-md-5 p-4 text-center">
-    <p><a class="text-reset" href="">[Species] © [Owner]</a></p>
+    <p><a class="text-reset" href="">Zippleons © SinisterGutz</a></p>
     <p><a href="https://github.com/cheeriko/charadex">Powered by Charadex</a></p>
   </div>
 
