@@ -15,21 +15,21 @@
   /* ============================================================= */
   /* Primary Color
   ================================================================ */
-  --cd-primary-color:                    #D2D299;
-  --cd-primary-text-color:               #FDF6F3;
+  --cd-primary-color:                    #F8DCD5;
+  --cd-primary-text-color:               #fff;
 
   /* ============================================================= */
   /* Secondary Color
   ================================================================ */
   --cd-secondary-color:                  #F8C0C8;
-  --cd-secondary-text-color:             #FDF6F3;
+  --cd-secondary-text-color:             #fff;
 
   /* ============================================================= */
   /* Backgrounds
   ================================================================ */
-  --cd-body-background-color:            #F7EBE6;
-  --cd-content-background-color:         #FDF6F3;
-  --cd-faded-background-color:           #F7EBE6;
+  --cd-body-background-color:            #F8DCD5;
+  --cd-content-background-color:         #F7EBE6;
+  --cd-faded-background-color:           #F8DCD5;
 
   /* Background Extras */
   --cd-body-background-image:              url();
@@ -37,13 +37,13 @@
   /* ============================================================= */
   /* Text
   ================================================================ */
-  --cd-body-text-color:                  #F8C0C8;
-  --cd-faded-text-color:                 #C86CC4;
+  --cd-body-text-color:                  #D18B95;
+  --cd-faded-text-color:                 #E3A3AB;
 
   /* ============================================================= */
   /* Borders
   ================================================================ */
-  --cd-border-color:                     rgba(0, 0, 0, 0.125);
+  --cd-border-color:                     #D18B95;
   --cd-border-width:                     1px;
   --cd-border-style:                     solid;
   --cd-border-radius:                    .75rem;
@@ -51,7 +51,7 @@
   /* ============================================================= */
   /* Navbar
   ================================================================ */
-  --cd-navbar-background-color:          #C86CC4;
+  --cd-navbar-background-color:          #D18B95;
   --cd-navbar-brand-color:               var(--cd-primary-color);
   --cd-navbar-brand-color-hover:         var(--cd-secondary-color);
   --cd-navbar-text-color:                var(--cd-content-background-color);
