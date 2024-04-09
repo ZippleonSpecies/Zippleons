@@ -15,21 +15,21 @@
   /* ============================================================= */
   /* Primary Color
   ================================================================ */
-  --cd-primary-color:                    #8FB7D4;
+  --cd-primary-color:                    #D2D299;
   --cd-primary-text-color:               #fff;
 
   /* ============================================================= */
   /* Secondary Color
   ================================================================ */
-  --cd-secondary-color:                  #939799;
+  --cd-secondary-color:                  #F8C0C8;
   --cd-secondary-text-color:             #fff;
 
   /* ============================================================= */
   /* Backgrounds
   ================================================================ */
-  --cd-body-background-color:            #e9e9e9;
+  --cd-body-background-color:            #F7EBE6;
   --cd-content-background-color:         #ffffff;
-  --cd-faded-background-color:           #e9e9e9;
+  --cd-faded-background-color:           #F7EBE6;
 
   /* Background Extras */
   --cd-body-background-image:              url();
